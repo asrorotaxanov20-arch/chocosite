@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shokolad Do‘koni</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5efe6;
+        }
+
+        header {
+            background: #4b2e2e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #6f4e37;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 30px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .price {
+            color: #6f4e37;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #4b2e2e;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            border-radius: 70px;
+        }
+
+        .card button:hover {
+            background: #6f4e37;
+        }
+
+        footer {
+            background: #4b2e2e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🍫 Shokolad Do‘koni</h1>
+        <p>Eng mazali va sifatli shokoladlar</p>
+    </header>
+
+    <nav>
+        <a href="#">Bosh sahifa</a>
+        <a href="#">Mahsulotlar</a>
+        <a href="#">Aloqa</a>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROT0kVixWj_rLDHkAJA-3VNTlEq7Z3m4Bnyw&s"
+                height="170px" alt="Qora shokolad">
+            <h3>Qora shokolad</h3>
+            <p class="price">25 000 so‘m</p>
+            <button>Sotib olish</button>
+        </div>
+        <div class="card">
+            <img src="data:image/jpeg;base64,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
+2Q==" alt="Sutli shokolad">
+            <h3>Sutli shokolad</h3>
+            <p class="price">22 000 so‘m</p>
+            <button>Sotib olish</button>
+        </div>
+
+        <div class="card">
+            <img src="data:image/jpeg;base64,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"
+                height="160px" alt="Oq shokolad">
+            <h3>Oq shokolad</h3>
+            <p class="price">24 000 so‘m</p>
+            <button>Sotib olish</button>
+        </div>
+        <div>
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Shokolad Do‘koni. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+</body>
+
+</html>
